@@ -1,0 +1,31 @@
+# Utwórz plik .gitignore
+echo "# Pliki konfiguracyjne z danymi wrażliwymi
+.env
+
+# Pliki uwierzytelniania Google API
+token.pickle
+credentials.json
+
+# Baza danych SQLite
+processed_reviews.db
+
+# Logi
+bot.log
+
+# Pliki środowiska Python
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Pliki IDE
+.idea/
+.vscode/
+*.swp
+*.swo" > .gitignore

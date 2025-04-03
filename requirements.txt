@@ -1,0 +1,15 @@
+# Utwórz plik requirements.txt
+echo "google-api-python-client>=2.0.0
+google-auth-httplib2>=0.1.0
+google-auth-oauthlib>=0.4.0
+python-dotenv>=0.15.0
+schedule>=1.0.0
+langdetect>=1.0.9
+transformers>=4.15.0
+torch>=1.10.0
+google-generativeai>=0.1.0" > requirements.txt
+
+# Dodaj requirements.txt do repozytorium
+git add requirements.txt
+git commit -m "Dodano requirements.txt"
+git push
